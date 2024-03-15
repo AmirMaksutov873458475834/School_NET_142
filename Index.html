@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>School_NET_142</title>
+	<style>
+		body{
+			margin: 0%;
+		}
+		.layout{
+			display: flex;
+			flex-direction: column;
+			height: 150vh;
+		}
+		.header{
+			font-size: 15px;
+			margin-top: 40px;
+		}.header a{
+			color: #668568;
+			font-size: 20px;
+			margin: 15px;
+		}.header a:hover{
+			font-size: 30px;
+			color: black;
+			background-color: #668568;
+			width: 50px;
+			height: 50px;
+		}
+		.circle{
+			background-image: url("book.png");
+			background-size: cover;
+			position: absolute;
+		    left: 50%;
+		    top: 60px;
+		    transform: translate(-40%, -50%);
+		    height: 100px;
+		    width: 100px;
+		    box-shadow: -1px 0px 20px 12px #668568;
+		    border-radius: 50%; 
+		}
+		.Inspector{background-color: #9dbc9d; 
+			width: 50%;
+			height: 150px;
+			display: flex;
+		}
+		.card{
+			background-image: url("https://avatars.mds.yandex.net/get-altay/9752112/2a00000189608f35dd8ee400a4c482586f5c/XXL_height");
+			background-size: cover;
+			box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5), 0 10px 3px rgba(0, 0, 0, 0.08);
+			top: 200px;
+			right: 50px;
+			height: 403px;
+			width: 512px;
+			position: absolute;
+			transition: all 1s;
+		}
+		.card:hover{
+			top: 170px;
+			box-shadow: 0 20px 14px rgba(0, 0, 0, 0.5), 0 20px 3px rgba(0, 0, 0, 0.08);
+			transition: all 1s;
+			right: 45px;
+		}
+		.object{
+			margin-left: 50px;
+			margin-top: 160px;
+			font-size: 25px;
+			font-family: Comic Sans MS, Comic Sans, cursive;
+		}
+		.Info{
+			margin-top: -50px;
+			margin-left: -15px;
+			font-family: Comic Sans MS, Comic Sans, cursive;
+		}
+		#line{
+			margin-top: 10px;
+			margin-top: -27px;
+			background-color: #a5cccd;
+			width: 200px;
+			height: 2px;
+		}
+		#line2{
+			margin-top: 10px;
+			margin-up: 27px;
+			background-color: #a5cccd;
+			width: 100%;
+			height: 2px;
+		}
+		.footer{
+			margin-top: 10px;
+			font-size: 30px;
+			font-family: Comic Sans MS, Comic Sans, cursive;
+		}
+		a{
+			margin-top: 10px;
+			font-family: Comic Sans MS, Comic Sans, cursive;
+			color: #a5cccd;
+			transition: all 1s;
+		}a:hover{
+			font-size: 35px;
+		}
+		.Down{
+			color:  #a5cccd;
+		}
+		header{
+/*			background: linear-gradient(135deg, #3498db, #8e44ad);*/
+			height: 150px;
+			background-color: #9dbc9d;
+			flex-shrink: 0;
+		}
+		main{
+			background-color: #E3E1D9;
+			flex-grow: 1;
+		}
+		footer{
+			height: 100px;
+			background-color: #638889;
+			flex-shrink: 0;
+			padding-bottom: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div class="layout">
+		<header>
+			<div class="header">
+				<div class="circle"></div>
+				<h1>
+					«Общеобразовательная школа №142» 
+				</h1>
+				<div class="Inspector">
+					<p> <a href="http://142.alschool.kz/ru.php?query=main%2F">Информация</a></p>
+					<p> <a href="http://142.alschool.kz/ru.php?query=oushylara%2F">Школьникам</a></p>
+					<p><a  href="http://142.alschool.kz/ru.php?query=main%2F">Основной Сайт</a></p>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="object">
+			<h1>Информация о школе</h1><br>
+			<p class="Info">Школа - это современное учебное заведение,<br> которое предоставляет качественное среднее образование.</p><br>
+			<p class="Info">Учебное учреждение разделено на две части: младшую <br> и старшую, что позволяет эффективно организовать <br> учебный процесс и обеспечить индивидуальный подход <br>к каждому ученику.
+			Одной из особенностей школы является<br> наличие казахского отделения, которое позволяет учащимся<br> изучать родной язык и культуру более глубоко и осознанно.
+
+			Кроме того, в школе имеется просторная и уютная столовая, где ученики могут насладиться вкусными и полезными блюдами в теплой обстановке. Здесь уделяется особое внимание качеству питания, чтобы обеспечить учащимся необходимую энергию и питательные вещества для полноценного обучения и развития.
+
+			Школа Самма - это место, где каждый ученик может раскрыть свой потенциал, обрести новые знания и навыки, а также провести время в дружеской и поддерживающей среде.</p>
+			</p>
+				
+				<div class="card"></div>
+			</div>
+		</main>
+		<footer>
+			<div class="footer">
+				<p>Наш адрес</p>
+				<div id="line"></div>
+			</div>
+			<p>
+				<h1>Алматы, 
+					<a href="https://www.google.com/maps/place/%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F+%D0%BE%D0%B1%D1%89%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D1%88%D0%BA%D0%BE%D0%BB%D0%B0+%E2%84%96142/@43.3622601,76.9956272,15z/data=!4m6!3m5!1s0x388312ba7902beb3:0xb423e3233d9d4db1!8m2!3d43.3622601!4d76.9956272!16s%2Fg%2F1vrq802h?entry=ttu">Жулдыз 1</a></h1>
+			</p>
+
+			<div class="Down">
+				
+				<div id="line2"></div>
+				<p>©2013-2024, Коммунальное государственное учреждение«Общеобразовательная школа №142» Управления образования города Алматы Все права защищены. "Интерактивная школа" проект.
+				</p>
+			</div>
+			
+		</footer>
+	</div>
+</body>
+</html>
